@@ -1,7 +1,6 @@
 
 #学院信息在线管理系统
 '''
-锻炼一下知识
 1.信息的输入输出
 2.常用数据类型的使用
 3.分支结构
@@ -9,7 +8,6 @@
 5.函数的定义与使用
 
 '''
-
 #定义一个用于存放学员信息的列表变量
 
 stulist=[{'name':'zhangsan','age':20,'classid':'pythom02'},
@@ -25,7 +23,6 @@ def showStu(stulist):
    for i in range(len(stulist)):
        print("|{0:<5}| {1:<10}| {2:<5}|{3:<10}|".format(i+1,stulist[i]['name'],stulist[i]['age'],stulist[i]['classid']))
    
-
 #输出初始界面
 while True:          #一个死循环
    print("="*12,"学院管理系统","="*14)
